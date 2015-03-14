@@ -12,18 +12,15 @@
         <dl4j.version>0.0.3.3.3.alpha1-SNAPSHOT</dl4j.version>
     </properties>
 
-    <distributionManagement>
-        <snapshotRepository>
+    <repositories>
+    	<repository>
             <id>sonatype-nexus-snapshots</id>
             <name>Sonatype Nexus snapshot repository</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>nexus-releases</id>
-            <name>Nexus Release Repository</name>
-            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
+    	</repository>
+    </repositories>
+
+
 
     <dependencyManagement>
         <dependencies>
